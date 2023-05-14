@@ -30,3 +30,6 @@ a:hover {
     background-color: beige;
     color: olive;
 }
+* {
+    border: 2px solid blue;
+}

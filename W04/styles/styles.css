@@ -1,0 +1,17 @@
+* {
+    background-color: pink;
+}
+header {
+    text-align: center;
+}
+ol {
+    margin: 50px auto;
+}
+* {
+    border: 2px solid blue;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}

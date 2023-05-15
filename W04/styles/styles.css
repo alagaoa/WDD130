@@ -5,13 +5,41 @@ header {
     text-align: center;
 }
 ol {
-    margin: 50px auto;
-}
-* {
-    border: 2px solid blue;
+    text-align: left;
+    font-weight: bold;
 }
 main {
-    width: 80%;
+    width: 33%;
     margin: 0 auto;
     text-align: center;
+}
+
+#edu {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+#pres {
+    color: white;
+}
+#because {
+    width: 43%;
+    margin: 0 auto;
+    font-size: 25px;
+    color: white;
+}
+footer {
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 13px;
+}
+header a:hover {
+    color: black;
+}
+.education {
+    text-decoration: none;
+    color: white;
 }

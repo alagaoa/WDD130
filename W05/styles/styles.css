@@ -1,0 +1,24 @@
+.images {
+    width: 20%;
+    border: 10px solid rgb(87, 82, 82);
+    border-radius: 50%;
+    margin: 20px 60px;
+}
+#second {
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: grey;
+}
+#image {
+    width: 100%;
+}
+/* * {
+    border: 2px solid blue;
+} */

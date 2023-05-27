@@ -1,0 +1,30 @@
+* {
+    border: 2px solid blue;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cherry {
+    width: 10%;
+}
+
+.grey {
+    background-color: grey;
+}
+
+#sweet, #cherries, #tart{
+    margin: 0;
+    text-align: center;
+    padding: 2em 1em;
+    font-size: 400%;
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+

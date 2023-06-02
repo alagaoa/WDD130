@@ -2,25 +2,9 @@
     border: 2px solid blue;
 }
 
-div {
+#a {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.cherry {
-    width: 10%;
-}
-
-.grey {
-    background-color: grey;
-}
-
-#sweet, #cherries, #tart{
-    margin: 0;
-    text-align: center;
-    padding: 2em 1em;
-    font-size: 400%;
-
 }
 
 body {
@@ -28,3 +12,29 @@ body {
     margin: 0;
 }
 
+#tart {
+    width: 100%;
+    height: 150px;
+    grid-column: 1/2;
+    font-style: bold;
+}
+
+#sweet {
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+}
+
+#cherry {
+    width: 50%;
+    position: relative;
+    top: -310px;
+
+}
+
+#cherries {
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+    grid-column: 2/3;
+}

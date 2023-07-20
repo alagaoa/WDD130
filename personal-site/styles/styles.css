@@ -17,6 +17,10 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
+nav a:hover {
+    background-color: #FFFDFD; 
+    color: #2E2C2F;
+}
 header {
     background-color: #7C898B;
     display: grid;
@@ -222,6 +226,10 @@ footer .social img {
     font-size: 70px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+#paragraph {
+    text-align: center;
+    font-family: 'Bradley Hand', sans-serif;
 }
 #inspiration-grid {
     display: grid;
